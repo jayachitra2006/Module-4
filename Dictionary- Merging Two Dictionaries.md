@@ -1,3 +1,4 @@
+
 ## Dictionary Operations in Python: Merging Two Dictionaries
 
 ## 🎯 Aim
@@ -12,7 +13,15 @@ To write a Python program that merges **two dictionaries** and combines their ke
 ## 🧾 Program
 
 Add code here
+```
+dict1 = {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
+dict2 = {'Thirty': 30, 'Fourty': 40, 'Fifty': 50}
+dict1.update(dict2)
+print(dict1)
+```
 
 ## Output
+<img width="846" height="110" alt="image" src="https://github.com/user-attachments/assets/059a091e-9d52-45fc-981c-b80101b109df" />
 
 ## Result
+Thus the prpogram was successfully executed.
