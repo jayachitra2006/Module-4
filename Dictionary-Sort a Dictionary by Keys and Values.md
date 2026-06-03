@@ -1,3 +1,5 @@
+
+
 # 🔤 Dictionary-Python Program to Sort a Dictionary by Keys and Values
 
 This Python program demonstrates how to sort a dictionary:
@@ -31,8 +33,19 @@ To write a Python program that sorts a dictionary's:
 
 ## 🧪Program
 Add Code here
+```
+d={2:56,1:2,5:12,4:24,6:18,3:323}
+l=[]
+for i in d:
+    l.append(i)
+l.sort()
+print("Keys and Values sorted in alphabetical order by the key")
+for i in l:
+    print(tuple([i,d[i]]),end=" ")
+```
 
 ## Sample Output
+<img width="843" height="147" alt="image" src="https://github.com/user-attachments/assets/69a2264d-b6ce-4aa2-87c4-59faf444d732" />
 
 ## Result
-
+Thus the python program executed successfully!
